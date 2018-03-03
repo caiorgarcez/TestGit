@@ -15,7 +15,7 @@ $ cd /Documents/Git/TestGit
 
 $ git status
 
-$ git commit -m "first commit" myfirst.md
+$ git commit -m "write here for commit" myfirstfile.md
 
 $ git push -u origin master
 
