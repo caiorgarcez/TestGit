@@ -19,3 +19,5 @@ $ git commit -m "first commit" myfirst.md
 
 $ git push -u origin master
 
+$ git push -u origin master ...
+
