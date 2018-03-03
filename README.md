@@ -1,5 +1,5 @@
-# TestGit
-This is for testing Git. 
+### TestGit
+This a repository made for testing Git. 
 
 
 -----
