@@ -1,6 +1,5 @@
-### TestGit
+## TestGit
 This a repository made for testing Git. 
-
 
 -----
 
@@ -34,3 +33,4 @@ Now you can publish on Github by running:
 
 `$ git push -u origin master`
 
+-----
