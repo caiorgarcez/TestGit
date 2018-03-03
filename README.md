@@ -30,7 +30,7 @@ Add a commit to your file.
 
 `$ git commit -m "write here the commit" myfirstfile.md`
 
-Now you can publish on Github by:
+Now you can publish on Github by running:
 
 `$ git push -u origin master`
 
