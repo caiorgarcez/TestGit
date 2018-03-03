@@ -18,7 +18,7 @@ Then clone the repository in your created Git folder.
 
 `$git clone https://urloftherepository.`
 
-Create a markdown file called myfistfile.md. The purpose is to add this file to your Github repository. Then run:
+Create a markdown file called myfistfile.md. The objective is to add this file to your Github repository. Then run:
 
 `$ git add myfirstfile.md`
 
