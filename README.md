@@ -6,19 +6,24 @@ This is for testing Git.
 
 ### Some useful commands 
 
-cd to your repository folder: 
+The first step is to create a folder called: ''Git'' for cloning your repositories and modify them. 
 
+Later, it is necessary to associate your Github account to your Git client. 
+$ git config --global user.name "enter here your username."
+$ git config --global user.email "enter here your email associated to your Github account."
 
-git add myfirstfile.md
+Then clone the repository in your created Git folder.
+$git clone https://urloftherepository.
 
-$ cd /Documents/Git/TestGit 
+Create a markdown file called myfistfile.md. The purpose is to add this file to your Github repository. Then run:
+$ git add myfirstfile.md
 
+In order to verify the creation of the file, run the status.
 $ git status
 
-$ git commit -m "write here for commit" myfirstfile.md
+Add a commit to your file.
+$ git commit -m "write here the commit" myfirstfile.md
 
+Now you can publish on Github by:
 $ git push -u origin master
-
-$ git status
-$ git push -u origin master ...
 
