@@ -1,6 +1,8 @@
 ### TestGit
 This a repository made for testing Git. 
 
+A good reference for commands is found [here](https://www.youtube.com/watch?v=HVsySz-h9r4). 
+
 -----
 
 ### Some useful commands 
