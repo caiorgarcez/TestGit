@@ -36,3 +36,5 @@ Now you can publish on Github by running:
 `$ git push -u origin master`
 
 -----
+
+cmd . *abrir o terminal no diretório. 
