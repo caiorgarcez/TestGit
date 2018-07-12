@@ -24,11 +24,11 @@ In case of a new repository, navigate to the created directory using `cd /nameof
 
 `$ git add myfirstfile.md`
 
-In order to verify the creation of the file, run the status.
+To verify the creation of the file, run the status.
 
 `$ git status`
 
-For pushing to Github changes in the repository, it is necessary to add a "commit tag message" to your files that are identified as modified when running git status. To do so, run:
+For pushing to Github changes in the repository, it is necessary to add a "commit tag message" to your files that are identified as modified when running git status. In order to do so, run:
 
 `$ git commit -m "write here the commit" myfirstfile.md`
 
