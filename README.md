@@ -36,4 +36,7 @@ Now you can publish on Github by running:
 
 `$ git push -u origin master`
 
+If you have uploaded/created files, before pushing to origin, you can add and commit all files with the following command:
+`$ git add -A && git commit -m "write here the commit"`
+
 -----
