@@ -18,7 +18,7 @@ Later, associate your Github account to your Git client:
 
 Then clone the repository of your choice in your recently created Git folder.
 
-`$git clone https://urloftherepository.`
+`$ git clone https://urloftherepository.`
 
 In case of a new repository, navigate to the created directory using `cd /nameoftherepository` and insert a markdown file called README.md:
 
