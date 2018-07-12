@@ -28,7 +28,7 @@ To verify the creation of the file, run the status.
 
 `$ git status`
 
-For pushing to Github changes in the repository, it is necessary to add a "commit tag message" to your files that are identified as modified when running git status. In order to do so, run:
+For pushing to Github the changes made in the repository, it is necessary to add a "commit tag message" to your files that are identified as modified when running git status. In order to do so, run:
 
 `$ git commit -m "write here the commit" myfirstfile.md`
 
