@@ -41,3 +41,20 @@ If you have uploaded/created files, before pushing to origin, you can add and co
 `$ git add -A && git commit -m "write here the commit"`
 
 -----
+
+### Allow Github to track a project in your local folder
+
+Access Github website and create a repository with the same name of your project's folder. After you finished the creation process, get the url of the repository and run:
+
+`$ git remote add origin https://github.com/<your_username>/<name_of_the_fodler>.git `
+
+Your local project files will be added to your Github repository folder. Run `$ git status` to make sure all modifications have been identified.
+
+Later, run: `$ git commit -am "<Comment about adding repo to Github>"`
+
+Push to git by: `$ git push -u origin master`
+
+-----
+
+
+
