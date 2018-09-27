@@ -1,10 +1,8 @@
-This repository presents the basics of Git. 
-
-A good reference for commands is found [here](https://www.youtube.com/watch?v=HVsySz-h9r4). 
+This repository presents the basics of Git. A good reference for commands is found [here](https://www.youtube.com/watch?v=HVsySz-h9r4). 
 
 -----
 
-### Some useful commands 
+### Useful commands 
 
 The first step is to create a folder called: ''Git'' for cloning your repositories and modify them. Go to any directory of your choice and run in Git Bash: 
 `$ mkdir  Git"`
