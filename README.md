@@ -52,7 +52,7 @@ Your local project files will be added to your Github repository folder. Before 
 
 Then the commit the changes by: `$ git commit -am "<Comment about adding repo to Github>"`
 
-Push to git by: `$ git push -u origin master`
+Push to Github by: `$ git push -u origin master`
 
 -----
 
