@@ -5,7 +5,7 @@ This repository presents the basics of Git. A good reference for commands is fou
 ### Useful commands 
 
 The first step is to create a folder called: ''Git'' for cloning your repositories and modify them. Go to any directory of your choice and run in Git Bash: 
-```Linux Kernel Module
+```shell
 $ mkdir <name of your directory>
 ```
 
@@ -19,28 +19,33 @@ $ git config --global user.email "<enter here your email associated to your Gith
 ```
 
 Then clone the repository of your choice in your recently created Git folder.
-
-`$ git clone https://urloftherepository.`
+```shell
+$ git clone https://urloftherepository.
+```
 
 In case of a new repository, navigate to the created directory using `cd /nameoftherepository` and insert a markdown file called README.md:
+```shell
+$ git add myfirstfile.md
+```
 
-`$ git add myfirstfile.md`
-
-To verify the creation of the file, run the status.
-
-`$ git status`
-
+To verify the creation of the file, run the status:
+```shell
+$ git status
+```
 For pushing to Github the changes made in the repository, it is necessary to add a "commit tag message" to your files that are identified as modified when running git status. In order to do so, run:
-
-`$ git commit -m "write here the commit" myfirstfile.md`
+```shell
+$ git commit -m "write here the commit" myfirstfile.md
+```
 
 Now you can publish on Github by running:
-
-`$ git push -u origin master`
+```shell
+$ git push -u origin master
+```
 
 If you have uploaded/created files, before pushing to origin, you can add and commit all files with the following command:
-
-`$ git add -A && git commit -m "write here the commit"`
+```shell
+$ git add -A && git commit -m "write here the commit"
+```
 
 -----
 
@@ -49,15 +54,22 @@ If you have uploaded/created files, before pushing to origin, you can add and co
 Navigate to your local project repository and run `$ git init` to create a `.git` folder and start tracking the files. 
 
 Access Github website and create a repository with the same name of your project's folder. After you finished the creation process, get the url of the repository and run:
-
-`$ git remote add origin https://github.com/<your_username>/<name_of_the_fodler>.git `
+```shell
+$ git remote add origin https://github.com/<your_username>/<name_of_the_fodler>.git `
+```
 
 Your local project files will be added to your Github repository folder. Before commit, it is necessary to run: `$ git add --all
 ` to add the files. Later, run `$ git status` to make sure all modifications have been identified.
 
-Then the commit the changes by: `$ git commit -am "<Comment about adding repo to Github>"`
+Then the commit the changes by: 
+```shell
+$ git commit -am "<Comment about adding repo to Github>"`
+```
 
-Push to Github by: `$ git push -u origin master`
+Push to Github by: 
+```shell
+$ git push -u origin master`
+```
 
 -----
 
