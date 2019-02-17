@@ -5,7 +5,7 @@ This repository presents the basics of Git. A good reference for commands is fou
 ### Useful commands 
 
 The first step is to create a folder called: ''Git'' for cloning your repositories and modify them. Go to any directory of your choice and run in Git Bash: 
-```bash
+```shell
 $ mkdir  Git
 ```
 
