@@ -6,7 +6,8 @@ This repository presents the basics of Git. A good reference for commands is fou
 
 The first step is to create a folder called: ''Git'' for cloning your repositories and modify them. Go to any directory of your choice and run in Git Bash: 
 ```bash
-$ mkdir  Git"```
+$ mkdir  Git
+```
 
 Later, associate your Github account to your Git client: 
 
