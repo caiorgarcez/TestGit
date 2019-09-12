@@ -4,20 +4,23 @@ This repository presents the basics of Git. A good reference for commands is fou
 
 ### Useful commands 
 
+First associate your Github account to your Git client: 
+```shell
+$ git config --global user.name "<enter here your username>"
+```
+```shell
+$ git config --global user.email "<enter here your email associated to your Github account>"
+```
+
 The first step is to create a folder called: ''Git'' for cloning your repositories and modify them. Go to any directory of your choice and run in Git Bash: 
 ```shell
 $ mkdir <name of your directory>
 ```
 
-Later, associate your Github account to your Git client: 
+Then initiate the git tracking:
 ```shell
-$ git config --global user.name "<enter here your username>"
+$ git init
 ```
-
-```shell
-$ git config --global user.email "<enter here your email associated to your Github account>"
-```
-
 Then clone the repository of your choice in your recently created Git folder.
 ```shell
 $ git clone https://urloftherepository.
