@@ -19,6 +19,13 @@ In case of a new repository, navigate to the created directory by `cd /Git/<name
 $ git init
 ```
 
+Access Github website and create a repository with the same name of your project's folder. After you finished the creation process, get the url of the repository and run:
+```shell
+$ git remote add origin https://github.com/<your_username>/<name_of_the_fodler>.git `
+
+```
+This allows Github to track a project repository at a local folder. 
+
 Later, in the current repository, create and save a markdown file called ''README.md''. To verify the creation of the file, run the status:
 ```shell
 $ git status
@@ -54,31 +61,6 @@ Now you can publish on Github by running:
 ```shell
 $ git push -u origin master
 ```
-
------
-
-### Allow Github to track a project repository at a local folder
-
-Navigate to your local project repository and run `$ git init` to create a `.git` folder and start tracking the files. 
-
-Access Github website and create a repository with the same name of your project's folder. After you finished the creation process, get the url of the repository and run:
-```shell
-$ git remote add origin https://github.com/<your_username>/<name_of_the_fodler>.git `
-```
-
-Your local project files will be added to your Github repository folder. Before commit, it is necessary to run: `$ git add --all
-` to add the files. Later, run `$ git status` to make sure all modifications have been identified.
-
-Then the commit the changes by: 
-```shell
-$ git commit -am "<Comment about adding repo to Github>"`
-```
-
-Push to Github by: 
-```shell
-$ git push -u origin master`
-```
-
 -----
 
 
