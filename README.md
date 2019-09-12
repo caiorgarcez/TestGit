@@ -2,7 +2,7 @@ This repository presents the basics of Git. A good reference for commands is fou
 
 -----
 
-### Useful commands 
+### Basic Tutorial 
 
 First associate your Github account to your Git client: 
 ```shell
@@ -10,42 +10,49 @@ $ git config --global user.name "<enter here your username>"
 $ git config --global user.email "<enter here your email associated to your Github account>"
 ```
 
-The first step is to create a folder called: ''Git'' for cloning your repositories and modify them. Then navigate to Git located at any directory of your choice and run: 
+A proper way for cloning your repositories and modify them is to create a folder called: ''Git'' at any directory of your choice.
 ```shell
 $ mkdir <name of your directory>
 ```
-Then initiate the git tracking:
+In case of a new repository, navigate to the created directory by `cd /Git/<nameoftherepository>` and initiate the version control by: 
 ```shell
 $ git init
 ```
 
-Then clone the repository of your choice in your recently created Git folder.
-```shell
-$ git clone https://urloftherepository.
-```
-
-In case of a new repository, navigate to the created directory using `cd /nameoftherepository` and insert a markdown file called README.md:
-```shell
-$ git add myfirstfile.md
-```
-
-To verify the creation of the file, run the status:
+Later, in the current repository, create and save a markdown file called ''README.md''. To verify the creation of the file, run the status:
 ```shell
 $ git status
 ```
-For pushing to Github the changes made in the repository, it is necessary to add a "commit tag message" to your files that are identified as modified when running git status. In order to do so, run:
+
+Notice that git warns about changes made in the repository. To confirm the  modifications run:
 ```shell
-$ git commit -m "write here the commit" myfirstfile.md
+$ git add README.md
+```
+
+In case of more files. You can add them all by running:
+```shell
+$ git add --all
+```
+
+In case of clonning an existing repository, you can navigate to ''Git'' and run:
+```shell
+$ git clone <https://urloftherepository>
+```
+A folder will be created containing all the files of the clonned repository.
+
+For pushing to Github the changes made in the repository, it is necessary to add a "commit tag message" to your files that are identified as modifications when running git status. In order to do so, run:
+```shell
+$ git commit -m "write here the commit" README.md
+```
+
+For a group of files, you can run:
+```shell
+$ git commit -am "<commit message for all modifications>"
 ```
 
 Now you can publish on Github by running:
 ```shell
 $ git push -u origin master
-```
-
-If you have uploaded/created files, before pushing to origin, you can add and commit all files with the following command:
-```shell
-$ git add -A && git commit -m "write here the commit"
 ```
 
 -----
