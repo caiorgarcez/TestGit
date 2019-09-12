@@ -10,15 +10,15 @@ $ git config --global user.name "<enter here your username>"
 $ git config --global user.email "<enter here your email associated to your Github account>"
 ```
 
-The first step is to create a folder called: ''Git'' for cloning your repositories and modify them. Go to any directory of your choice and run in Git Bash: 
+The first step is to create a folder called: ''Git'' for cloning your repositories and modify them. Then navigate to Git located at any directory of your choice and run: 
 ```shell
 $ mkdir <name of your directory>
 ```
-
 Then initiate the git tracking:
 ```shell
 $ git init
 ```
+
 Then clone the repository of your choice in your recently created Git folder.
 ```shell
 $ git clone https://urloftherepository.
