@@ -7,8 +7,6 @@ This repository presents the basics of Git. A good reference for commands is fou
 First associate your Github account to your Git client: 
 ```shell
 $ git config --global user.name "<enter here your username>"
-```
-```shell
 $ git config --global user.email "<enter here your email associated to your Github account>"
 ```
 
