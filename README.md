@@ -10,7 +10,7 @@ $ git config --global user.name "<enter here your username>"
 $ git config --global user.email "<enter here your email associated to your Github account>"
 ```
 
-A proper way for cloning your repositories and modify them is to create a folder called: ''Git'' at any directory of your choice.
+A proper way for cloning your repositories and modify them is to create a folder called: `Git` at any directory of your choice.
 ```shell
 $ mkdir <name of your directory>
 ```
@@ -26,7 +26,7 @@ $ git remote add origin https://github.com/<your_username>/<name_of_the_fodler>.
 ```
 This allows Github to track a project repository at a local folder. 
 
-Later, in the current repository, create and save a markdown file called ''README.md''. To verify the creation of the file, run the status:
+Later, in the current repository, create and save a markdown file called `README.md`. To verify the creation of the file, run the status:
 ```shell
 $ git status
 ```
@@ -41,7 +41,7 @@ In case of more files. You can add them all by running:
 $ git add --all
 ```
 
-In case of clonning an existing repository, you can navigate to ''Git'' and run:
+In case of clonning an existing repository, you can navigate to `Git` and run:
 ```shell
 $ git clone <https://urloftherepository>
 ```
